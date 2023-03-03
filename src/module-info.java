@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Werliston
+ *
+ */
+module PrimeiroProgramaJava {
+}
