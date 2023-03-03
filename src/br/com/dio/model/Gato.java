@@ -1,5 +1,7 @@
 package br.com.dio.model;
 
+import java.util.Objects;
+
 public class Gato {
 
 	private String nome;
@@ -52,11 +54,15 @@ public class Gato {
 		if (getClass() != obj.getClass())
 			return false;
 		Gato other = (Gato) obj;
-		return Objects.equals(cor, other.cor) && Objects.equals(idade, other.idade) && Objects.equals(nome, other.nome);
-	}
+		
+						return Objects.equals(cor, other.cor);
+							
+						}
+	
 
 	@Override
 	public String toString() {
+		
 		return "Gato [nome=" + nome + ", cor=" + cor + ", idade=" + idade + "]";
 	}
 	
